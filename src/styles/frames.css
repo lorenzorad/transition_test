@@ -1,21 +1,35 @@
-.frame_1 .content__title {
+.frame {
+  width: 100%;
+  height: 100%;
+}
+
+#frame_1 {
+  background: radial-gradient(#8099BF, #54647D);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+#frame_1 .content__title {
   padding-bottom: 40px;
 }
 
-.frame_1 .area--center {
+#frame_1 .area--center {
   text-align: center;
-  /* top: 25%;*/
 }
 
-.frame_1 .cc_front {
+#frame_1 .cc_front {
   margin-left: 40px;
 }
 
-.frame_1 .btn__explanation {
+#frame_1 .btn__explanation {
   font-size: 14px;
   padding: 17px 0;
 }
 
-.frame_cc_back .area--center {
-
+#frame_2 {
+  background: radial-gradient(#82B5D1, #3E6378);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  margin: 0;
 }

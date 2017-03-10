@@ -1,0 +1,30 @@
+header {
+  background-image: url('/test/src/assets/images/logo_cornercard-1.svg');
+  background-position: 15% 0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  border-bottom: 1px solid #ffffff;
+  display: none;
+  height: 60px;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+header .descr {
+  float:right;
+  margin-top: 5px;
+  text-align: center;
+  width: 50%;
+}
+
+header .descr .text {
+  display: inline-block;
+  width: 270px;
+}
+
+header .buy-area {
+  float:right;
+  margin-top: 5px;
+  width: 30%;
+}
