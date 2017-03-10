@@ -1,0 +1,53 @@
+
+.row {
+  display: table;
+  /*width: 100%;*/
+}
+.col {
+  display: table-cell;
+  /*height: 100%;*/
+  vertical-align: middle;
+  /*width: 33%;*/
+}
+
+.area--left {
+  border: 1px solid green;
+  /*float: left;*/
+  /*margin-right: 100px;*/
+  transform: translateY(50%);
+  width: 33%;
+
+
+  /*  position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    */
+
+}
+.area--center {
+  border: 1px solid blue;
+  /*height: 100%;*/
+  min-width: 250px;
+  /*width: 300px;*/
+
+  /*position: absolute;*/
+  transform: translateY(50%);
+  width: 33%;
+  /*left: 50%;*/
+  /*top: 50%;*/
+  /*transform: translate(-50%, -50%);*/
+
+  /*left: 0;
+  margin: 0 auto; !* Will not center vertically and won't work in IE6/7. *!
+  position: fixed;
+  right: 0;*/
+}
+.area--right {
+  border: 1px solid red;
+  /*float: right;*/
+  /*margin-left: 100px;*/
+  text-align: center;
+  transform: translateY(50%);
+  width: 33%;
+}
+

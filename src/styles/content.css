@@ -1,0 +1,10 @@
+.content__title {
+  font-size: 45px;
+}
+.content__cta {
+  cursor: pointer;
+  font-size: 30px;
+}
+.content__description {
+  font-size: 24px;
+}

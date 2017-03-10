@@ -1,0 +1,35 @@
+* {
+  background-color: cadetblue;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 30px;
+  padding: 10px 45px;
+}
+
+.btn--small {
+  font-size: 18px;
+}
+
+.card_img {
+  height: 358px;
+  width: 225px;
+}
+
+
+
+.container__static {
+  position: fixed;
+  top: 25%;
+}
+.container__moving {
+  /*height: 200%;*/
+  position: absolute;
+}
+

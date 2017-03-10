@@ -1,0 +1,13 @@
+{
+  "name": "corner-card-landing",
+  "private": true,
+  "description": "Cornèr card landing page",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "jquery": "3.1.1"
+  },
+  "engines": {
+    "node": ">=5.5.0"
+  }
+}
