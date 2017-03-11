@@ -7,7 +7,7 @@
   padding-bottom: 40px;
 }
 
-#frame_1 .area--center {
+#frame_1 .area--right {
   text-align: center;
 }
 
@@ -15,7 +15,29 @@
   margin-left: 40px;
 }
 
-#frame_1 .btn__explanation {
+#frame_2 .btn__explanation {
   font-size: 14px;
   padding: 17px 0;
+}
+
+#frame_2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#frame_2 ul li {
+  border-bottom: 1px solid #fff;
+  display: table;
+  padding: 25px 0;
+}
+
+#frame_2 ul li:last-of-type {
+  border-bottom: none;
+}
+
+#frame_2 ul .fa {
+  display: table-cell;
+  font-size: 40px;
+  padding-right: 15px;
+  vertical-align: middle;
 }
