@@ -1,8 +1,9 @@
+/* styles strictly related to this scenario (quite not re-usable elsewhere) */
+
 html {
   height: 100%;
   font-family: 'Open Sans', sans-serif;
 }
-
 body {
   color: #fff;
   margin: 0;
@@ -16,7 +17,6 @@ body {
   font-size: 30px;
   padding: 10px 45px;
 }
-
 .btn--small {
   font-size: 18px;
   padding: 10px 30px;
@@ -26,11 +26,15 @@ body {
   height: 358px;
   width: 225px;
 }
-
+.phone_img {
+  height: 582px;
+  width: 289px;
+}
 
 .container__static {
   position: fixed;
   top: 25%;
+  left: 40%;
 }
 .container__moving {
   height: 200%;
@@ -38,3 +42,50 @@ body {
   top: 30%;
 }
 
+.content__title {
+  font-size: 45px;
+  padding: 20px;
+}
+.content__cta {
+  cursor: pointer;
+  font-size: 30px;
+}
+.content__description {
+  font-size: 24px;
+  padding: 20px;
+}
+
+/** custom attributes per frame **/
+
+#frame_1 .content__title {
+  padding-bottom: 40px;
+}
+#frame_1 .area--right {
+  text-align: center;
+}
+#frame_1 .cc_front {
+  margin-left: 120px;
+}
+
+#frame_2 .btn__explanation {
+  font-size: 14px;
+  padding: 17px 0;
+}
+#frame_2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+#frame_2 ul li {
+  border-bottom: 1px solid #fff;
+  display: table;
+  padding: 25px 0;
+}
+#frame_2 ul li:last-of-type {
+  border-bottom: none;
+}
+#frame_2 ul .fa {
+  display: table-cell;
+  font-size: 40px;
+  padding-right: 15px;
+  vertical-align: middle;
+}
