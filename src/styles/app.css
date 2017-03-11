@@ -68,6 +68,9 @@ body {
   margin-left: 120px;
 }
 
+#frame_2 {
+  padding-bottom: 100px;
+}
 #frame_2 .btn__explanation {
   font-size: 14px;
   padding: 17px 0;
