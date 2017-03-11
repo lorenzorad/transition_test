@@ -1,0 +1,22 @@
+.fade-background .fade-back__elem {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.fade-background .fade-back__elem:not(:first-child) {
+  display: none;
+}
+
+.radial-back-blue {
+  background: radial-gradient(#82B5D1, #3E6378);
+}
+
+.radial-back-violet {
+  background: radial-gradient(#8099BF, #54647D);
+}
+
+

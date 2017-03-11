@@ -10,12 +10,18 @@
   <link href="styles/grid.css" rel="stylesheet">
   <link href="styles/app.css" rel="stylesheet">
   <link href="styles/content.css" rel="stylesheet">
+  <link href="styles/fade-background.css" rel="stylesheet">
   <link href="styles/header.css" rel="stylesheet">
   <link href="styles/frames.css" rel="stylesheet">
 </head>
 <body>
 
-<header>
+<div class="fade-background">
+  <div class="fade-back__elem radial-back radial-back-blue"></div>
+  <div class="fade-back__elem radial-back radial-back-violet"></div>
+</div>
+
+<header style="display: none;">
   <div class="buy-area">
     <div class="btn btn--small">Karte anfordern</div>
   </div>
@@ -88,6 +94,7 @@
   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
   crossorigin="anonymous"></script>
 <script src="scripts/app.js"></script>
+<script src="scripts/fade-background.js"></script>
 <script src="scripts/header.js"></script>
 </body>
 </html>
