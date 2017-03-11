@@ -15,19 +15,14 @@
 }
 
 .area--left {
-  border: 1px solid green;
   width: 33%;
 }
-
 .area--center {
-  border: 1px solid blue;
   min-width: 250px;
   text-align: center;
   width: 33%;
 }
-
 .area--right {
-  border: 1px solid red;
   width: 33%;
 }
 

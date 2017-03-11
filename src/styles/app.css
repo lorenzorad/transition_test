@@ -33,13 +33,14 @@ body {
 
 .container__static {
   position: fixed;
-  top: 25%;
+  top: 28%;
   left: 40%;
 }
 .container__moving {
-  height: 200%;
+  height: 140%;
   position: absolute;
-  top: 30%;
+  top: 20%;
+  z-index: 5;
 }
 
 .content__title {
